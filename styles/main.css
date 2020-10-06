@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    background-image: url(https://unorp.br/wp-content/uploads/2018/04/unorp.br-engenharia-eletrica-ft-curso-engenharia-quimica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+}
+#top{
+    background-color: #118AB2;
+    height: 15vh;
+}
+#top > a{
+    text-decoration: none;
+}
+#top > a > h1{
+    
+    font-size: 9vh;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    color: whitesmoke;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2vw;
+}
+
+#menu{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 25vh;
+}
+
+#list{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#list li {
+    display: inline;
+}
+.list-iten{
+    display: inline-block;
+}
+.list-iten a{
+    margin-left: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size:3vh;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 7vh;
+    display: inline-block;
+    height: 10vh;
+    width: 30vh;
+    background-color: #06D6A0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.list-iten a:hover{
+    border-radius: 8vh;
+    color: #073B4C;
+}
