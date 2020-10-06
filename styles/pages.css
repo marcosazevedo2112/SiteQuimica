@@ -9,7 +9,7 @@ body{
 }
 #top > a{
     text-decoration: none;
-    cursor: progress;
+    cursor: pointer;
 }
 #top > a > h1{
     font-size: 9vh;
@@ -62,4 +62,7 @@ body{
     margin-right: auto;
     display: block;
     text-align: center;
+}
+.content .fonte{
+    font-size: 2vh;
 }

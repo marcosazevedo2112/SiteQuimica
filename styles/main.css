@@ -63,3 +63,18 @@ body{
     border-radius: 8vh;
     color: #073B4C;
 }
+.creditos{
+    font-family: 'Poppins', sans-serif;
+    color: #073B4C;
+    padding: 3vh;
+    width: 50vh;
+    margin: 10vh auto;
+    background-color: whitesmoke;
+    border-radius: 10vh 2vh;
+}
+.creditos ul{
+    margin: 0vh 10vh;
+}
+.creditos a{
+    color: #06D6A0;
+}
