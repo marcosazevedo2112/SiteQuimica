@@ -5,12 +5,13 @@ body{
 #top{
     background-color: #118AB2;
     height: 15vh;
+    border-radius: 0vh 00vh 50vh 0vh;
 }
 #top > a{
     text-decoration: none;
+    cursor: progress;
 }
 #top > a > h1{
-    
     font-size: 9vh;
     font-family: 'Pacifico', cursive;
     font-weight: normal;
@@ -29,6 +30,13 @@ body{
     font-size: 8vh;
     font-family: 'Poppins', sans-serif;
 }
+.content #profile{
+    border-radius: 100%;
+    float: left;
+    height: 30vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+}
 .content p{
     font-family: 'Poppins', sans-serif;
     font-size: 3vh;
@@ -38,15 +46,20 @@ body{
     color: inherit;
 }
 .content ul{
+    clear: both;
     background-color: #06D6A0;
     color: whitesmoke;
     padding: 5vh 5vh 5vh 10vh;
     font-size: 3vh;
-    border-radius: 4vh;
-
+    border-radius: 20vh 0vh;
 }
 .content ul li{
     padding-top: 1vh;
     font-family: 'Poppins', sans-serif;
-
+}
+.content .img-center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
 }
