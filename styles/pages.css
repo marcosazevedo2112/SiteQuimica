@@ -4,8 +4,12 @@ body{
 }
 .top{
     background-color: #118AB2;
+    opacity: 70%;
     height: 15vh;
     border-radius: 0vh 00vh 50vh 0vh;
+    transition: 450ms cubic-bezier(0.215, 0.610, 0.355, 1);
+    position: sticky;
+    top: 0px;
 }
 .top > a{
     text-decoration: none;
@@ -20,6 +24,10 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 2vw;
+}
+.top:hover{
+    background-color: black;
+    border-radius: 0;
 }
 .red{
     background-color: #F64740;
@@ -81,17 +89,27 @@ body{
     display: block;
     text-align: center;
 }
+.list-type-none{
+    list-style-type: none;
+}
 .content .fonte{
     font-size: 2vh;
+}
+
+.voltar-btn{
+    position: fixed;
+    bottom: 1vh;
+    right: 6vh;
 }
 
 .voltar-btn > a{
     float: right;
     margin-bottom: 10vh;
-    padding: 5vh;
+    padding: 2vh;
     background-color: #06D6A0;
     font-family: 'Poppins', sans-serif;
     border-radius: 2vh;
+    border: whitesmoke 5px solid;
     color: whitesmoke;
     text-decoration: none;
     font-size: 2vh;
@@ -99,5 +117,22 @@ body{
 }
 .voltar-btn > a:hover{
     background-color: whitesmoke;
+    border-color: #06D6A0;
+    border: inset;
     color: #06D6A0;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+      background-color: whitesmoke;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #06D6A0;
+  }
+  
