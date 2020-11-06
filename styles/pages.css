@@ -9,7 +9,7 @@ body{
     border-radius: 0vh 00vh 50vh 0vh;
     transition: 450ms cubic-bezier(0.215, 0.610, 0.355, 1);
     position: sticky;
-    top: 0px;
+    top: -20px;
 }
 .top > a{
     text-decoration: none;
@@ -118,7 +118,6 @@ body{
 .voltar-btn > a:hover{
     background-color: whitesmoke;
     border-color: #06D6A0;
-    border: inset;
     color: #06D6A0;
 }
 /* width */
